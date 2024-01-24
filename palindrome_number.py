@@ -10,5 +10,10 @@ def checking_palindrome (random_number):
     original_number = str (random_number)
 
 # check if the string is equal to its reverse
+    if original_number == original_number[::-1]:
+        print (f"{original_number} is a palindrome number.")
 
+    else:
+        print(f"{original_number} is not a palindrome number.")
+        
 # print the result
