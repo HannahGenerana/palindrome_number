@@ -4,7 +4,10 @@
 
 # pseudocode
 
+def checking_palindrome (random_number):
+
 # convert the number to a string
+    original_number = str (random_number)
 
 # check if the string is equal to its reverse
 
