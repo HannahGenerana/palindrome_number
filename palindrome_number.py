@@ -15,5 +15,9 @@ def checking_palindrome (random_number):
 
     else:
         print(f"{original_number} is not a palindrome number.")
-        
+
 # print the result
+checking_palindrome (123)
+checking_palindrome (555)
+checking_palindrome (121)
+checking_palindrome (1092)
